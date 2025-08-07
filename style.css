@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 2em;
+  background: #f8dbdb;
+}
+
+h1 {
+  color: #264414;
+}
+
+.semestre {
+  background: #dde255;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.ramo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5em 0;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 0.2em;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+h3 {
+  color: #f35695;
+}
+
+#promedio, #avance {
+  font-weight: bold;
+  color: #f98805;
+}
